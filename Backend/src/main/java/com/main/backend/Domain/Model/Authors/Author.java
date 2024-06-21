@@ -21,4 +21,9 @@ public class Author {
     private String firstName;
     @Column(name = "sur_name")
     private String surName;
+
+    public Author(String firstName, String surName) {
+        this.firstName = firstName;
+        this.surName = surName;
+    }
 }
