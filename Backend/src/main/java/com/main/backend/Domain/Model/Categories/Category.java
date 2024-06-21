@@ -19,4 +19,9 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;
     private String name;
+
+
+    public Category(String name) {
+        this.name = name;
+    }
 }
